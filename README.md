@@ -13,7 +13,7 @@ Welcome to the **Umbrella OS**, a highly immersive, interactive desktop environm
 *   **Admin Override:** A fallback security protocol requiring a 3-tier authentication (User, Password, and Security Key) paired with mechanical decryption puzzles.
 *   **Lethal Lockdown Sequence:** Failing authentication triggers a neuro-toxin lockdown sequence, forcing the user to solve procedural puzzles to survive.
 
-### 🧩 Procedural Puzzle Engine
+###  Procedural Puzzle Engine
 A dedicated, modular engine (`RedQueenPuzzles.py`) that dynamically generates mechanical and cryptographic challenges. Includes 10 distinct interactive puzzles:
 1.  **The Mastermind:** 4-digit brute-force PIN cracker with positional telemetry.
 2.  **Lights Out:** Spatial 3x3 grid balancing.
@@ -73,7 +73,7 @@ cd umbrella-os
    ```bash
    python Umbrella.py
    ```
-###Usage Guidelines
+### Usage Guidelines
 
       First Boot & Registration
       Upon launching, the system will enter the BIOS and Splash Screen. Navigate to the Registration Screen (bypassing the lockdown if necessary) to create your employee profile. You will input your data, receive a 4-         digit Security Key, and the system will capture your biometric face signature via webcam.
@@ -89,7 +89,7 @@ cd umbrella-os
       
       Accessing the system via Admin Override will require you to beat 5 randomly generated mechanical puzzles.
 
-###⚠️ Disclaimer
+### ⚠️ Disclaimer
 This is a fan-made project created for educational and entertainment purposes. "Resident Evil", "Umbrella Corporation", and "Red Queen" are trademarks of Capcom Co., Ltd.
 
 Security Notice: The "Incinerator" sub-routine utilizes os.remove(). Files deleted using this tool are permanently removed from your system and do not go to the Recycle Bin. Use with caution.
